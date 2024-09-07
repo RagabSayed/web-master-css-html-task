@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+h2{
+    font-size: 52px;
+    font-weight: 600;
+}
+button{
+    width: 173px;
+    height: 41px;
+    border-radius: 20.5px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* //////////////////////////// */
+.nav-container{
+    height: 86px;
+    background-color: #0B9586;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 150px;
+    width: 100%;
+    color: white;
+}
+.nav-links{
+    display: flex;
+}
+.nav-item, .nav-phon{
+    margin: auto 30px;
+}
+.nav-phon{
+    width: 283px;
+    height: 50px;
+    text-align: right;
+}
+.nav-item a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-phon p{
+    line-height: 23px;
+    width: 216px;
+    font-size: 18px;
+}
+.nav-phon strong{
+    font-size: 24px;
+}
+.nav-item a:focus{
+    color: white;
+    border-radius: 5px;
+    background: rgb(1, 121, 107);
+    padding: 8px 28px;
+    border-bottom: 3px solid #000000;
+}
+/* ////////////////////main section design */
+.main-section{
+    position: relative;
+    height: 650px;
+    color: white;
+}
+.main-img{
+    min-width: 100%;
+    position: absolute;
+}
+.main-data{
+    top: 69px;
+    left: 150px;
+    width: 729px;
+    position: absolute;
+}
+.line-draw{
+    
+    margin-left: 10px;
+    height: 25px;
+}
+.line-draw .line-part1{
+    display: inline-block;
+    border: 2.75px solid white;
+    width: 50px;
+    margin-left: 25px;
+}
+.line-draw .line-part2{
+    display: inline-block;
+    border: 2.75px solid #575757;
+    width: 80px;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+.main-descrp{
+    margin-top: 76px;
+    font-weight: 600;
+}
+.main-descrp p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.btn-1{
+    background-color: #3CAB90;
+    margin-right: 25px;
+}
+.btn-2, .cost-earth-conent button{
+    background-color: #FFBB1C;
+    color: #000000;
+}
+/* ///////////// Friendlist Section */
+.friendlist-sec{
+    padding-top: 80px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+}
+.friendlist-sec-text h2{
+    font-size: 42px;
+    font-weight: 600;
+}
+.friendlist-sec-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #475467;
+}
+.friendlist-sec-img{
+    margin-left: auto
+}
+.friendlist-sec-img figure img{
+    border-radius: 12px;
+}
+@font-face {
+    font-family: "Akazan-Font";
+    src: url("./webfonts/Akazan Regular.ttf");
+}
+.friendlist-sec-text ul li span{
+    width: 34px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #84BD3A;
+    letter-spacing: 4px;
+    font-family: Akazan-Font;
+}
+.friendlist-sec-text ul li{
+    font-weight: 600;
+    word-spacing: 3px;
+}
+.friendlist-sec-efect{
+    position: absolute;
+    height: 208px;
+    width: 266px;
+    top: 410px;
+    left: 66%;
+    background-color: #FFBB1C;
+    border-radius: 8px;
+}
+.friendlist-sec-efect .solar-charg img{
+    margin: 20px;
+}
+.friendlist-sec-efect .solar-charg figcaption{
+    font-family: Akazan-Font;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2A3334;
+    padding: 5px 30px;
+}
+/* //////////////////// */
+.cost-earth-conent{
+    position: absolute;
+    width: 678px;
+    height: 212px;
+    top: 35%;
+    left: 13%;
+    color: white;
+}
+.cost-earth-conent h2{
+    font-weight: 600;
+}
+.cost-earth{
+    position: relative;
+}
+.cost-earth-conent p{
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 180px 0 0;
+}
+/* ////////////////////// */
+.solar-kits{
+    width: 80%;
+    margin: 80px auto;
+}
+.solar-kits-content{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+}
+.solar-kits-head{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.solar-kits-head h2{
+    margin-bottom: 25px;
+}
+.solar-kits-item{
+    padding: 0 25px;
+    width: 100%;
+}
+.solar-kits-item figure img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.solar-kits-item p{
+    color: #475467;
+    margin: 25px 0;
+}
+.solar-kits-item button{
+    color: #3CAB90;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -25px;
+}
+.solar-kits-item button i, .energy-item-text button i{
+    color: #3CAB90;
+    height: 20px;
+    width: 20px;
+}
+/* /////////////// */
+.repairs{
+    position: relative;
+}
+.repairs-content{
+    color: #FFFFFF;
+    text-align: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.57);
+    margin: auto;
+    padding: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.repairs-content h2, .energy-header h2, .our-value h2{
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.repairs-content p{
+    font-weight: 500;
+    line-height: 28px;
+}
+/* /////////////////////// */
+.energy{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 32% 65%;
+    justify-content: space-between;
+}
+.energy p, .our-value p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #475467;
+}
+.energy-header strong{
+    padding: 28px;
+    background-color: #3CAB90;
+    border: 2.1px solid #3CAB90;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px #3CAB90;
+}
+.energy-header strong i{
+    color: white;
+    height: 28px;
+    width: 28px;
+    font-size: 28px
+}
+.energy-header h2{
+    margin-top: 50px;
+}
+.energy-content{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+.energy-content-row{
+    display: grid;
+    grid-template-rows: auto;
+}
+.energy-item, .our-value-item{
+    border: 1px solid #3CAB90;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 100%
+}
+.energy-item-img{
+    width: 100%;
+    padding: 25px 0;
+    background-color: rgba(60, 171, 144, 0.30);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.energy-item-img img{
+    margin-left: 23%;
+}
+.energy-item-text p, .our-value-item p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px auto;
+}
+.energy-item-text button{
+    color: #3CAB90;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -8px;
+}
+/* /////////////// */
+.our-value{
+    width: 80%;
+    margin: 40px auto;
+}
+.our-value-content{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+}
+.our-value-header{
+    margin: 30px auto;
+    text-align: center
+}
