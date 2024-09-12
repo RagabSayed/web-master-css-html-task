@@ -345,3 +345,126 @@ h4{
     margin: 30px auto;
     text-align: center
 }
+/* /////////////////// */
+.they-say{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 34% 62%;
+    justify-content: space-between;
+}
+.they-say-header{
+    padding: 20px;
+}
+.they-say-header i{
+    color: #3CAB90;
+    font-size: 48px;
+}
+.they-say-header h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.they-say-content{
+    padding: 50px;
+}
+.say-content-head{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.what-they-say{
+    color: #3CAB90;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.say-content-head p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.say-content-head-icon{
+    margin-left: auto;
+}
+.say-content-head-icon i{
+    font-size: 10px;
+    color: rgb(172, 170, 170);
+}
+.say-content-footr{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
+}
+.say-person-data{
+    display: flex;
+    flex-direction: row;
+}
+.say-person-name{
+    margin-top: 10px;
+}
+.say-footr-icon{
+    margin-left: auto;
+    font-size: 48px
+}
+/* /////////////////////////// */
+.foter-sec{
+    padding: 80px 150px;
+    height: 412px;
+    background-color: #283646;
+    color: #FFFFFF;
+}
+.foter-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.cont-frist-tab{
+    margin-top: 40px;
+}
+.cont-frist-tab ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.foter-cont-second{
+    margin: auto 0 0 auto;
+}
+.cont-second-input{
+    margin-top: 15px;
+    border: 1px solid #B3BDC7;
+    border-radius: 24px;
+    height: 48px;
+}
+.cont-second-input input{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 245px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 24px;
+    padding: 14px;
+}
+.cont-second-input label{
+    display: inline-block;
+    padding: 14px 0;
+    width: 147px;
+    border-radius: 24px;
+    margin-left: -30px;
+    background-color: #FFBB1C;
+    text-align: center;
+    font-size: 16px;
+}
+.foter-line{
+    width: 100%;
+    margin: 50px 0 ;
+    border: 1px solid #71777D;
+}
+.foter-cont-three{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.cont-three-one p, .cont-three-tow p{
+    font-size: 12px;
+    color: #92989F;
+}
+.cont-three-tow{
+    margin-left: auto;
+}

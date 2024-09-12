@@ -1,0 +1,72 @@
+@media (max-width: 1200px){
+    .energy, .they-say{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .nav-container{
+        padding: 16px 0;
+    }
+    .nav-item, .nav-phon{
+        margin: auto 10px;
+    }
+    .friendlist-sec{
+        width: 100%;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .solar-kits, .our-value{
+        width: 100%;
+    }
+    .repairs-content{
+        width: 65%;
+    }
+    .energy, .they-say{
+        grid-template-columns:auto;
+    }
+    .foter-sec{
+        padding: 80px 10px;
+    }
+ }
+ @media (max-width: 800px) {
+    .foter-sec{
+        height: 512px;
+    }
+    .foter-content, .foter-cont-three{
+        grid-template-columns:auto;
+    }
+    .foter-cont-second, .cont-three-tow{
+        margin-top: 30px;
+    }
+ }
+ @media (max-width: 750px) {
+     
+    .nav-container{
+        display: grid;
+        grid-template-columns: auto ;
+        height: auto;
+    }
+    .main-data{
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+    }
+    .friendlist-sec, .solar-kits-content, .energy-content, .our-value-content{
+        grid-template-columns:auto;
+    }
+    .friendlist-sec-efect{
+        left: 5%;
+    }
+    .cost-earth-conent{
+        height: auto;
+        width: auto;
+    }
+    .repairs-content{
+        width: 80%;
+    }
+    .they-say-content{
+        padding: 50px 0;
+    }
+ }
